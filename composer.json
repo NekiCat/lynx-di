@@ -1,0 +1,14 @@
+{
+	"name": "tiger/lynx-di",
+	"description": "Lynx Dependency Injection",
+	"minimum-stability": "stable",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Arne 'TigeR' Linck"
+		}
+	],
+	"require-dev": {
+		"phpunit/phpunit": "^7.0"
+	}
+}

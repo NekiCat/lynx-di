@@ -87,7 +87,7 @@ class ComponentScanner
 			}
 			else
 			{
-				if (strpos($file, '.php', -4) !== false)
+				if (($temp = strlen($file) - 4) >= 0 && strpos($file, '.php', $temp) !== false)
 				{
 					$result[] = $this->joinPaths($path, $file);
 				}

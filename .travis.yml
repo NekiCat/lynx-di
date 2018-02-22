@@ -8,4 +8,5 @@ branches:
 
 before_install:
   - composer self-update
+  - composer install --no-interaction
   - composer dump-autoload

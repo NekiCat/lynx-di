@@ -8,7 +8,16 @@
 			"name": "Arne 'TigeR' Linck"
 		}
 	],
+	"autoload": {
+		"psr-4": {
+			"Lynx\\": "src/"
+		}
+	},
 	"require-dev": {
 		"phpunit/phpunit": "^7.0"
+	},
+	"require": {
+		"doctrine/annotations": "^1.6",
+		"indigophp/doctrine-annotation-autoload": "^0.1.0"
 	}
 }
